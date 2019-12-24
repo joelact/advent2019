@@ -21,7 +21,7 @@ def execute(codes, position):
     return execute(codes, position + 4)
 
 
-f = open("input_test", "r")
+f = open("input", "r")
 
 codes = list(map(lambda x: int(x), f.readline().strip().split(',')))
 
